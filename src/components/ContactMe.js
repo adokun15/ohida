@@ -3,10 +3,6 @@ import Footer from "./Footer";
 export default function ContactMe() {
   return (
     <section className="min-h-[80vh] p-10  bg-gradient-to-br from-pink-200 to-purple-500">
-      <h2>
-        You Can Reach Out By Filling the fields below or your can just{" "}
-        <a href="/#">Emailing</a> me
-      </h2>
       <form className="min-h-[60vh] md:w-1/2 mx-auto *:block *:my-4  bg-white rounded my-10 p-5">
         <h1 className="text-3xl text-center">Contact Me</h1>
         <label className="ml-2 text-xl font-serif">Name</label>

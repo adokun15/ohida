@@ -5,10 +5,24 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+//import { useScroll } from "framer-motion";
+//import { useEffect, useRef } from "react";
 
 export default function MainNavigation() {
+  /* const navRef = useRef();
+  const { scrollX, scrollXProgress, scrollY, scrollYProgress } = useScroll(
+    navRef.current
+  );
+
+  useEffect(() => {
+    console.log("scrollX", scrollX);
+    console.log("scrollXpro", scrollXProgress);
+    console.log("scrolly", scrollY);
+    console.log("scrolypro", scrollYProgress);
+  }, [scrollXProgress, scrollX, scrollY, scrollYProgress]);
+*/
   return (
-    <nav className="flex text-fuchsia-50 justify-between px-10 py-8 items-center">
+    <nav className="flex text-fuchsia-50 bg-[rgba(255,255,255,0.1)] justify-between px-10 py-8  items-center">
       <header className="text-4xl">Ohida_</header>
 
       <article className="md:flex lg:flex list-none *:first-letter:text-2xl hidden gap-5">
