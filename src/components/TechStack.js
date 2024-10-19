@@ -5,88 +5,113 @@ import reactImg from "../images/techstack/images.png";
 import reduxImg from "../images/techstack/redux-icon-2048x1945-ahvhunxp.png";
 import firebaseImg from "../images/techstack/firebase.png";
 import gitImg from "../images/techstack/Git-Icon-1788C.png";
-import FramerImg from "../images/techstack/framer.png";
+import nextImg from "../images/techstack/nextjs-icon.png";
 import TailWindImg from "../images/techstack/Tailwind_CSS_Logo.svg.png";
 export default function TechStack() {
   return (
-    <section className="bg-white min-h-[80vh] p-10">
-      <h1 className="text-5xl md:text-[5rem] text-pink-500">My TechStack</h1>
+    <section id="techstack" className=" p-10">
+      <h1 className="text-5xl md:text-[5rem] text-slate-100">
+        Skills and Tools
+      </h1>
       <ul
-        className="md:grid *:my-4 *:min-h-24
-        md:grid-cols-4 lg:grid-cols-5 md:gap-4 my-5 block md:mx-[5rem] mx-3"
+        className=" grid  py-10 *:my-1 
+        grid-cols-3 lg:grid-cols-4  md:w-[70%]  my-5  md:my-2  mx-3"
       >
-        <li className="container bg-white shadow p-5 rounded-2xl">
-          <img
-            src={htmlImg}
-            alt="html"
-            className="aspect-square block m-auto max-h-[80%]"
-          />
-          <p className="font-bold text-center text-xl my-4">HTML</p>
+        <li className="w-fit p-2 bg-white shadow shadow-slate-400  rounded">
+          <div className="h-16 w-16">
+            <img
+              src={htmlImg}
+              alt="html"
+              className="aspect-square w-full h-full block m-auto "
+            />
+          </div>
+          <p className=" text-center text-xs my-1">HTML</p>
         </li>
 
-        <li className="container bg-white shadow p-5 rounded-2xl">
-          <img
-            className="aspect-square block m-auto max-w-[90%] max-h-[80%]"
-            src={cssImg}
-            alt="css"
-          />
-          <p className="font-bold text-center text-xl my-4">CSS</p>
+        <li className="w-fit p-2 bg-white shadow shadow-slate-400  rounded">
+          <div className="h-16 w-16">
+            <img
+              className="aspect-square w-full h-full block m-auto "
+              src={cssImg}
+              alt="css"
+            />
+          </div>
+          <p className=" text-center text-xs my-1">CSS</p>
         </li>
-        <li className="container bg-white shadow p-5 rounded-2xl">
-          <img
-            src={jsImg}
-            alt="js"
-            className="aspect-square block m-auto max-w-[90%] max-h-[80%]"
-          />
-          <p className="font-bold text-center text-xl my-4">JAVASCRIPT</p>
+        <li className="w-fit p-2 bg-white shadow shadow-slate-400  rounded">
+          <div className="h-16 w-16">
+            <img
+              src={jsImg}
+              alt="js"
+              className="aspect-square w-full h-full block m-auto "
+            />
+          </div>
+
+          <p className=" text-center text-xs my-1">JAVASCRIPT</p>
         </li>
-        <li className="container bg-white shadow p-5 rounded-2xl">
-          <img
-            className="aspect-square block m-auto max-w-[90%] max-h-[80%]"
-            src={reactImg}
-            alt="react"
-          />
-          <p className="font-bold text-center text-xl my-4">REACTJS</p>
+        <li className="w-fit p-2 bg-white shadow shadow-slate-400  rounded">
+          <div className="h-16 w-16">
+            <img
+              className="aspect-square w-full h-full block m-auto "
+              src={reactImg}
+              alt="react"
+            />
+          </div>
+          <p className=" text-center text-xs my-1">REACTJS</p>
         </li>
-        <li className="container bg-white shadow p-5 rounded-2xl">
-          <img
-            src={reduxImg}
-            alt="redux"
-            className="aspect-square block m-auto max-w-[90%] max-h-[80%]"
-          />
-          <p className="font-bold text-center text-xl my-4">REDUX</p>
+        <li className="w-fit p-2 bg-white shadow shadow-slate-400  rounded">
+          <div className="h-16 w-16">
+            <img
+              src={reduxImg}
+              alt="redux"
+              className="aspect-square w-full h-full block m-auto "
+            />
+          </div>
+          <p className=" text-center text-xs my-1">REDUX</p>
         </li>
-        <li className="container bg-white shadow p-5 rounded-2xl">
-          <img
-            src={firebaseImg}
-            className="aspect-square block m-auto max-w-[90%] max-h-[80%]"
-            alt="firebase"
-          />
-          <p className="font-bold text-center text-xl my-4">FIREBASE</p>
+        <li className="w-fit p-2 bg-white shadow shadow-slate-400  rounded">
+          <div className="h-16 w-16">
+            <img
+              src={firebaseImg}
+              className="aspect-square w-full h-full block m-auto "
+              alt="firebase"
+            />
+          </div>
+
+          <p className=" text-center text-xs my-1">FIREBASE</p>
         </li>
-        <li className="container bg-white shadow p-5 rounded-2xl">
-          <img
-            className="aspect-square block m-auto max-w-[90%] max-h-[80%]"
-            src={gitImg}
-            alt="GIT"
-          />
-          <p className="font-bold text-center text-xl my-4">GIT</p>
+        <li className="w-fit p-2 bg-white shadow shadow-slate-400  rounded">
+          <div className="h-16 w-16">
+            <img
+              className="aspect-square w-full h-full block m-auto "
+              src={gitImg}
+              alt="GIT"
+            />
+          </div>
+
+          <p className=" text-center text-xs my-1">GIT</p>
         </li>
-        <li className="container bg-white shadow p-5 rounded-2xl">
-          <img
-            className="aspect-square block m-auto max-w-[90%] max-h-[80%]"
-            src={FramerImg}
-            alt="Framer"
-          />
-          <p className="font-bold text-center text-xl my-4">FRAMER</p>
+        <li className="w-fit p-2 bg-white shadow shadow-slate-400  rounded">
+          <div className="h-16 w-16">
+            <img
+              className="aspect-square w-full h-full block m-auto "
+              src={nextImg}
+              alt="Framer"
+            />
+          </div>
+
+          <p className=" text-center text-xs my-1">NextJs</p>
         </li>
-        <li className="container bg-white shadow p-5 rounded-2xl">
-          <img
-            className="aspect-square block m-auto max-w-fill max-h-[80%]"
-            src={TailWindImg}
-            alt="TailWindImg"
-          />
-          <p className="font-bold text-center text-xl my-4">TAILWINDCSS</p>
+        <li className="w-fit p-2 bg-white shadow shadow-slate-400  rounded">
+          <div className="h-16 w-16">
+            <img
+              className="aspect-square block m-auto max-w-fill max-h-[80%]"
+              src={TailWindImg}
+              alt="TailWindImg"
+            />
+          </div>
+
+          <p className=" text-center text-xs my-1">TAILWINDCSS</p>
         </li>
       </ul>
     </section>
