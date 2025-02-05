@@ -31,10 +31,10 @@ export default function Projects() {
       id: "project3",
       name: "ShareSpace",
       description: `A roommate matchup site. For students looking for new roomie. `,
-      githubLink: "https://github.com/adokun15/sharespace",
+      // githubLink: "https://github.com/adokun15/sharespace",
       imgDemo: sharespaceImg,
-      tools: "Firebase, Redux, React",
-      viewLink: "https://sharespace-rtk-query.vercel.app",
+      tools: "Firebase, Redux, React, NodeJS, Express, ShadCN, Paystack",
+      viewLink: "https://sharespace.com.ng",
     },
     {
       id: "project4",
@@ -49,8 +49,9 @@ export default function Projects() {
       id: "project5",
       name: "SpaceBiz",
       description: `An sales solution for Whatapps seller.`,
-      tools: "Firebase, WhatappApi, Paystack, Redux, React",
+      tools: "Firebase, Whatapp Api, Paystack, Redux, React, NodeJS, Expressjs",
       imgDemo: spacebizImg,
+      viewLink: "https://spacebiz.vercel.app/",
     },
   ];
 
@@ -99,7 +100,18 @@ export default function Projects() {
                       </a>
                     </div>
                   ) : (
-                    <p className="my-4 font-medium text-xl ">Coming soon</p>
+                    <p className="my-4 font-medium text-xl ">
+                      <a
+                        target="_blank"
+                        without
+                        rel="noreferrer"
+                        href={project.viewLink || ""}
+                        className="  text-blue-950"
+                      >
+                        View Live
+                        <ArrowRight className="inline" />
+                      </a>
+                    </p>
                   )}
                 </div>
               </li>

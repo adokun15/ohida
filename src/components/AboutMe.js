@@ -21,7 +21,7 @@ export default function AboutMe() {
           <Laptop className="m-auto" />
           <p className="text-balance tracking-wider">
             Ability to translate design from tools(figma,sketch) into readable
-            code
+            code and use UI library for better User Experience
           </p>
         </div>
 

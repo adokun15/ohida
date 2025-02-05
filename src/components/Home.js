@@ -91,7 +91,7 @@ export default function Home() {
             }}
             className="md:text-2xl text-[1rem] text-center leading-[4rem] md:leading-none"
           >
-            A Frontend Web developer
+            A Software developer
           </motion.p>
         </motion.article>
         <p className="animate-bounce block text-end">
